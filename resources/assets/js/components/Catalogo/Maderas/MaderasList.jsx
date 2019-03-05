@@ -1,7 +1,7 @@
 import React from 'react';
-import Producto from './Producto';
+import Madera from './Madera';
 const CatalogoList = (props) => (
-    <div className="row" >
+    <div className="row catalogo" >
     <br/>
             <div className="col-md-12"> 
             <div className="card">
@@ -10,7 +10,7 @@ const CatalogoList = (props) => (
             <ul className="row" >
                     {   
                         props.productos.map(productos => (
-                            <Producto
+                            <Madera
                             key={productos.id} 
                             id={productos.id}
                             producto={productos.producto} 

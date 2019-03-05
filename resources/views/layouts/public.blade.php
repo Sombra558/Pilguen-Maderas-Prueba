@@ -30,7 +30,8 @@
 			}
 .footer-pie{
 				font-size: 11px;
-				color: white;
+                color: white;
+                background-color: #f0ad4e;
             }
             .top-right {
                 position: absolute;
@@ -45,18 +46,38 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
             }
+            .anis{
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 25px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+            }
+            .categoria{ 
+                padding: 0 25px;
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+            }
+            .categoria a{ 
+               color:black;
+            }
+            .categoria a:hover{
+                color:green;
+            }
             .hop:hover{
-                border-color:#114b02f8;
+                border-color:green;
                 border-width:5px;
             }
             .busca{
                 background-color:#eec77dd8;
             }
-           
             .bloque1{
-            border-right: 100px solid transparent;
-            border-top: 100px solid transparent;
-            border-left: 100px solid transparent;
+            border-right: 25px solid #054909;
+            border-top: 5px solid #054909;
+            border-left: 25px solid #054909;
             border-bottom: 100px solid #f0ad4e;
             } 
             .bloque1 a{
@@ -114,17 +135,24 @@
                  width:100%;
                 background-repeat: no-repeat; 
             }
-           
-  
+          .bordin{
+            border-top: 5px solid #dadadac0;
+            border-left: 5px solid #dadadac0;
+            border-right: 5px solid #dadadac0;
+            border-bottom: 5px solid #dadadac0;
+          }
+           .catalogo{
+           background-color: #f0ad4e;
+           }
        
        
 
     </style>
     </head>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  style="background-color: #eeeaeabb;" id="myTab" role="tablist">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #0a7c13cc;" id="myTab" role="tablist">
             <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" alt="">
+            <img src="#" width="60" height="60" alt="">
             </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -203,18 +231,18 @@
         </div>
     </header>
     <body>
-    <div class="container">
+    <div class="container bordin" style="background-color: #ffffff;">
             <br>
             @yield('content')
             <br>
     </div>
-    <footer data-spy="scroll" id="fat" class="coli">
+    <footer style="background-color: #0a7c13cc;" data-spy="scroll" id="fat" class="coli">
     <div class="row mx-auto">
 						<section class="col-xs-12 col-sm-6 col-md-6">
                         <ul class="row">
-                                <li class="col-md-12"><span style="font-size: 48px; color: #168108;"><i class="fas fa-phone col"></i></span>Numero de telefono:</li>
-								<li class="col-md-12"><span style="font-size: 48px; color: #168108;"><i class="fas fa-envelope col"></i></span>Correo Electronico:</li>
-								<li class="col-md-12"><span style="font-size: 48px; color: #168108;"><i class="fas fa-fax col"></i></span>Fax:</li>
+                                <li class="col-md-12"><span style="font-size: 48px; color: #ffffff;"><i class="fas fa-phone col"></i></span>Numero de telefono: 04249605010</li>
+								<li class="col-md-12"><span style="font-size: 48px; color: #ffffff;"><i class="fas fa-envelope col"></i></span>Correo Electronico: adnborthomierth@gmail.com</li>
+								<li class="col-md-12"><span style="font-size: 48px; color: #ffffff;"><i class="fas fa-fax col"></i></span>Fax: 014569987432</li>
                                 
                 </ul>
 						</section>     
@@ -223,7 +251,7 @@
 						</section>					
 				</div>
 			</footer>
-            <footer class="footer-pie bg-success">
+            <footer class="footer-pie">
 				<br>
 				<p class="text-center">
     			Pilguen Maderas.  Copyright 2019 Todos los derechos reservados | Powered by Saraid Mata Guaimare

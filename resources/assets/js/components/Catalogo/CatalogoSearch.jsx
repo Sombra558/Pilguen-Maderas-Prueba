@@ -1,15 +1,23 @@
 import React from 'react'
 
 const CatalogoSearch = props => (
-    <div className="col-md-12">
-    <div className="busca">
-  <form >
+    <div className="col-md-12 ">
+  <br/>
+  <form className="form-control">
     <div className="form-group">
-    <input className="form-control" type="search" id="search" name="search" onChange={props.onSearch} placeholder="Producto, Categorías" />
+    <div className="col-auto">
+     
+        <input className="form-control text-center" id="inlineFormInputGroup" type="search"  name="search" onChange={props.onSearch} placeholder="Busqueda De Producto" />
+     
+      </div>
+  
+    
+        
     </div>
   </form>
+  <br/>
   </div>
-  </div>
+ 
 
 )
 

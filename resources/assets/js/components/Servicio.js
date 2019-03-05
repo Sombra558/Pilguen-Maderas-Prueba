@@ -15,13 +15,13 @@ export default class Publico extends Component {
         return (
             <Router>
                 <div className="row">
-                <div className="col-md-12"><h1 className="text-center">Servicios</h1></div>
                 <Link className="col-md-6" to="/Servicios/Secado">
                 <ScrollAnimation  animateIn='fadeInLeft'
                       animateOut='fadeOut'>
                    
                     <div className="card">
                     <img height="350px" src="/img/p3.jpg" className="card-img-top" />       
+                    <h1 className="text-center anis">Servicio de Secado</h1>
                     </div>
                     </ScrollAnimation>
                 </Link>
@@ -29,7 +29,8 @@ export default class Publico extends Component {
                 <ScrollAnimation  animateIn='fadeInRight'
                       animateOut='fadeOut'>
                      <div className="card">
-                    <img height="350px" src="/img/cepillado.jpg" className="card-img-top" />  
+                    <img height="350px" src="/img/cepillado.jpg" className="card-img-top" />
+                    <h1 className="text-center anis">Servicio de Cepillado</h1>  
                     </div>
                     </ScrollAnimation>
                 </Link>

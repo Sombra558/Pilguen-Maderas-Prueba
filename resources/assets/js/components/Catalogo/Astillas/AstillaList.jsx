@@ -1,7 +1,7 @@
 import React from 'react';
-import Producto from './Producto';
+import Producto from './Astilla';
 const CatalogoList = (props) => (
-    <div className="row" >
+    <div className="row catalogo" >
     <br/>
             <div className="col-md-12"> 
             <div className="card">

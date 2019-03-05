@@ -19,4 +19,3 @@ require('./components/Catalogo');
 require('./components/Publico');
 require('./components/Servicio');
 require('./components/Acerca');
-require('./components/Contacto');
